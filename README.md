@@ -39,13 +39,8 @@ Finally I came up with an interestingness scores used for ranking of the article
 I1 = ( ∑ | Score(Entity)) / Total_Entites
 Incorporates Sentiment Of Entity
 
-I2 = I1 + factor * min(num(Pos_Entities), num(Neg_entities) ) / Total_Article_Tweets
-Higher weight for contrasting Entities as they increase interestingness
 
-I3 = I2* Total_Article_Tweets
-Greater number of live tweets make article more trending
-
-Final Ranking of the articles is based on the interestingness score I3 as calculated above
+Final Ranking of the articles is based on the interestingness score I1 as calculated above
 
 
 
